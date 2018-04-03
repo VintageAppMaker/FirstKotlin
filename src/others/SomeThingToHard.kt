@@ -23,4 +23,13 @@ fun main(args: Array<String>) {
     // null safe를 위해 사용하는 let
     var s3 : Int? = null
     s3?.let{ println (it * 2) }
+
+    // 4.
+    // 명령형(제어문) 처리가 아닌 함수형 처리
+    // if 문을 줄이겠다는 것은 마음에 들지만...
+    // 적응하기 힘듬.
+    var multifier    : (Int) -> Int      = { println("multifier    $it"); it * it}
+    var even_checker : (Int) -> Boolean  = { println("even_checker $it"); it % 2 == 0  }
+    println ( (0..10).map(multifier).filter{ even_checker(it) } )
+
 }
