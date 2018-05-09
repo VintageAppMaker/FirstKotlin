@@ -49,6 +49,7 @@ java
 other
 - [프로퍼티](doc/22.properties.md) : **[coding](http://tpcg.io/NKwHHt)**
 - [lateinit과 lazy](doc/23.lateinit_lazy.md) : **[coding](http://tpcg.io/jXxb2U)**
+- [멀티리턴](doc/26.multireturn.md) :
 
 
 
