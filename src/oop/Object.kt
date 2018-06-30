@@ -12,8 +12,8 @@ class 일반클래스{
     var msg: String = "일반객체로 생성하면 이 변수를 액세스 가능함"
     // companion object Factory {} 안에서 구현해야 static 가능
     companion object Factory {
-        var 스태틱변수 = "스태틱변수";
-        fun 이거스태틱임()= println("이거스태틱 함수임");
+        var 스태틱변수 = "스태틱변수"
+        fun 이거스태틱임()= println("이거스태틱 함수임")
     }
 }
 
