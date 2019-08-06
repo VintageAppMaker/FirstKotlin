@@ -11,7 +11,7 @@ kotlin을 공부하기 위해 만든 예제소스입니다. 프로그래밍 공�
 에서 레퍼런스를 참고합니다.
 
 - play store [(kotlin 배우기 - github)](https://play.google.com/store/apps/details?id=com.psw.appbook.kotlin&hl=ko)
-- [개발자를 위한 예제](https://github.com/VintageAppMaker/KotlinOnepointLesson)
+- [개발자를 위한 기본예제](https://github.com/VintageAppMaker/KotlinOnepointLesson)
 
 Contents:
 ---------
